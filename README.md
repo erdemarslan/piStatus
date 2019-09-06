@@ -16,7 +16,7 @@ Clone it from github.
 
 Install required modules.
 
-    pip3 install -r requirement.txt
+    sudo pip3 install -r requirements.txt
 
 Enable I2C from Raspberry Configuration and Reboot your RPI.
 
@@ -28,9 +28,9 @@ Run the code
 If you want it start on Raspberry Pi Startup you must do that.
 Open terminal.
 
-    sudo nano /etc/local.rc
+    sudo nano /etc/rc.local
 
-Add this line before exit(0)
+Add this line before exit 0
 
     sudo python3 /home/pi/piStatus/pistatus.py &
 
