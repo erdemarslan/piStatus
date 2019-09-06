@@ -1,0 +1,4 @@
+gpiozero
+netifaces
+Adafruit_SSD1306
+psutil
