@@ -1,7 +1,7 @@
 # piStatus
  Raspberry Pi Status Monitor with SSD1306 OLED Screen and Fan Control
 
-This project is under development.
+This project is under development. Fan speed section not programmed yet!
 
 **HOW TO USE IT**
 Install required library for git
